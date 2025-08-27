@@ -39,3 +39,10 @@ RocketResellers/
 	•	JavaScript (optional future extension)
 	•	Hosting via GitHub Pages / Netlify / custom hosting
 
+content platforms for research and assets:
+1. Unsplash (https://unsplash.com/) - Free stock images.
+2. Pexels (https://pexels.com/) - Free photos and videos.
+3. MDN Web Docs (https://developer.mozilla.org/) - Authoritative HTML, CSS, JS documentation.
+4. W3Schools (https://w3schools.com/) - Beginner-friendly tutorials.
+5. FreeCodeCamp (https://freecodecamp.org/) - Practice and reference for web projects.
+
