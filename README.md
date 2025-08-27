@@ -24,3 +24,12 @@ It includes:
 - Orders and shipping details
 - Terms & Conditions for transparency
 
+RocketResellers/
+│── index.html        # Homepage
+│── style.css         # Custom CSS for styling
+│── products.html     # Product listings
+│── orders.html       # Orders & shipping info
+│── terms.html        # Terms & Conditions
+│── contact.html      # Contact details
+│── assets/           # Images, logos, banners
+
