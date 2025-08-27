@@ -33,3 +33,9 @@ RocketResellers/
 │── contact.html      # Contact details
 │── assets/           # Images, logos, banners
 
+🔑 Tech Stack
+	•	HTML5
+	•	CSS3
+	•	JavaScript (optional future extension)
+	•	Hosting via GitHub Pages / Netlify / custom hosting
+
