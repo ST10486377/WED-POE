@@ -1,48 +1,26 @@
-# WED-POE-PART-1
-~ WebDev Starter
+# 🚀 Rocket Resellers Website
 
-A modern, responsive, and accessible website project created by **Njabulo Ndlovu**.  
-This project demonstrates core web development skills in **HTML, CSS, and JavaScript**.
-
----
-
-~ Features
-- Semantic, accessible HTML5 structure
-- Responsive CSS design (mobile-first)
-- JavaScript enhancements (mobile menu + form validation)
-- Multi-page layout: Home, About, Services, Portfolio, Contact
-- Contact form with client-side validation
+Rocket Resellers is an independent sneaker, caps, and streetwear reseller brand based in South Africa.  
+Our mission is to connect sneakerheads and fashion enthusiasts with authentic branded footwear and apparel — both new and pre-owned.
 
 ---
 
-~ Project Structure
-```
-webdev_starter/
-│
-├── index.html        ~ Home page
-├── about.html        ~ About page
-├── services.html     ~ Services page
-├── portfolio.html    ~ Portfolio page
-├── contact.html      ~ Contact form page
-│
-├── css/
-│   └── style.css     ~ Main stylesheet
-│
-├── js/
-│   └── script.js     ~ JavaScript (menu toggle + form validation)
-│
-├── images/           ~ Placeholder for project images
-└── README.md         ~ Project documentation
-```
+## 📌 Project Overview
+This website was built to showcase Rocket Resellers’ products and provide customers with a smooth shopping experience.  
+It includes:
+- Sneaker, cap, and clothing listings
+- Orders and shipping information
+- Terms & Conditions
+- Contact information
 
 ---
 
-~ How to Run
-1. Open `index.html` in a web browser.
-2. Navigate between pages using the header menu.
+## 🎯 Features
+- Responsive and modern design
+- Product categories (Sneakers, Caps, Clothing)
+- Easy-to-navigate layout
+- Styled with custom CSS for creativity
+- SEO-ready structure
+- Orders and shipping details
+- Terms & Conditions for transparency
 
----
-
-## Contact
-**Author:** Njabulo Ndlovu  
-📧 Email: techndlovu@gmail.com
