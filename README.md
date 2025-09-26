@@ -45,4 +45,17 @@ content platforms for research and assets:
 3. MDN Web Docs (https://developer.mozilla.org/) - Authoritative HTML, CSS, JS documentation.
 4. W3Schools (https://w3schools.com/) - Beginner-friendly tutorials.
 5. FreeCodeCamp (https://freecodecamp.org/) - Practice and reference for web projects.
+   
+# PART 2 Continuation
+# Rocket Resellers Website
+
+## Improvements & Refinements
+- Organized images into a dedicated folder.
+- Ensured consistent styling across all pages using a single `style.css` file.
+- Added responsive meta viewport for mobile compatibility.
+- Linked all pages to the same stylesheet for consistent appearance.
+
+## Changelog
+- **2025-09-26**: Initial site setup with pages (index, about, contact, featured, shop, orders, terms).
+- Future plans: Add `enquiries.html` and `services.html` pages, improve responsive design, and reorganize CSS/JS into subfolders.
 
