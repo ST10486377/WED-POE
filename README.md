@@ -59,6 +59,6 @@ content platforms for research and assets:
 - **2025-09-26**: Initial site setup with pages (index, about, contact, featured, shop, orders, terms).
 - Future plans: Add `services.html` page, improve responsive design, and reorganize CSS/JS into subfolders.
 ## GITHUB LINK
-https://github.com/ST10486377/WED-POE 
+Link 1 https://github.com/ST10486377/WED-POE 
 
 
