@@ -45,6 +45,12 @@ content platforms for research and assets:
 3. MDN Web Docs (https://developer.mozilla.org/) - Authoritative HTML, CSS, JS documentation.
 4. W3Schools (https://w3schools.com/) - Beginner-friendly tutorials.
 5. FreeCodeCamp (https://freecodecamp.org/) - Practice and reference for web projects.
+REFERENCES:
+del Pilar Salas-Zárate, M., Alor-Hernández, G., Valencia-García, R., Rodríguez-Mazahua, L., Rodríguez-González, A. and Cuadrado, J.L.L., 2015. Analyzing best practices on Web development frameworks: The lift approach. Science of Computer Programming, 102, pp.1-19.
+Ranjan, A., Sinha, A. and Battewad, R., 2020. JavaScript for modern web development: building a web application using HTML, CSS, and JavaScript. BPB Publications.
+Robbins, J.N., 2012. Learning web design: A beginner's guide to HTML, CSS, JavaScript, and web graphics. " O'Reilly Media, Inc.".
+Jakus, G., Jekovec, M., Tomazic, S. and Sodnik, J., 2010. New technologies for web development. Elektrotehniški vestnik, 77(5), pp.273-280.
+
    
 # PART 2 Continuation
 # Rocket Resellers Website
