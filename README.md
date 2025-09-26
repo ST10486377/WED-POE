@@ -57,5 +57,5 @@ content platforms for research and assets:
 
 ## Changelog
 - **2025-09-26**: Initial site setup with pages (index, about, contact, featured, shop, orders, terms).
-- Future plans: Add `enquiries.html` and `services.html` pages, improve responsive design, and reorganize CSS/JS into subfolders.
+- Future plans: Add `services.html` pages, improve responsive design, and reorganize CSS/JS into subfolders.
 
