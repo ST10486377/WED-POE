@@ -1,0 +1,181 @@
+Part 3 – Enhancing Functionality and SEO
+Overview
+
+Part 3 focuses on improving the website’s usability, interactivity, search engine visibility, and form functionality. This includes the addition of JavaScript-based interactive components, AJAX form handling, SEO enhancements, accessibility improvements, and required documentation. All updates below have been implemented and tested.
+
+1. JavaScript Enhancements
+Interactive Elements
+
+Accordion Functionality:
+Implemented expandable/collapsible accordion sections to organize content and improve readability.
+
+Lightbox Gallery:
+Added a JavaScript lightbox that displays images in a modal when clicked, enhancing the user’s viewing experience.
+
+Search Filter System:
+A dynamic search field filters items in real time using data attributes (data-title) on product or content cards.
+
+Leaflet Interactive Map:
+Created a new page (locations.html) featuring a Leaflet.js interactive map with markers and popups for location display.
+
+Advanced DOM Manipulation:
+Used JS to dynamically toggle elements, handle modals, validate forms, and update page content based on user actions.
+
+2. Dynamic Content Loading
+
+Added JavaScript-driven content filtering for product/service listings.
+
+Integrated AJAX form handling to send data to a local API endpoint without reloading the page.
+
+Implemented fallback behavior using mailto: or client-side estimates when the server is unavailable.
+
+3. Search Engine Optimization (SEO)
+Keyword Research
+
+Researched and incorporated keywords such as:
+
+rocket resellers, affordable devices, refurbished tech, electronic repairs.
+
+On-Page SEO Improvements
+
+Meta Titles & Descriptions:
+Added and updated meta tags for every page to ensure clarity and keyword alignment.
+
+Header Structure (H1–H3):
+Ensured proper heading hierarchy through all pages.
+
+Image Optimization:
+Added meaningful alt text and improved image naming conventions.
+
+Internal Linking:
+Cross-linked relevant pages to improve crawlability.
+
+Clean URL Structure:
+Ensured filenames and paths remain descriptive and SEO-friendly.
+
+Mobile Responsiveness:
+Verified layout functionality on small, medium, and large devices.
+
+Technical SEO
+
+sitemap.xml created and updated automatically with all site pages.
+
+robots.txt added to guide search engine crawlers.
+
+Page Speed Optimisation:
+Compressing images, deferring scripts, and reducing unused CSS.
+
+Structured Data (JSON-LD):
+Added “WebPage” schema to each page for improved search visibility.
+
+Off-Page SEO Strategies (Documented)
+
+Suggested backlink sources (blogs, local listings, partnerships).
+
+Recommended social media content strategy.
+
+Added location-based data for future local SEO integration.
+
+4. Form Functionality and Validation
+Enquiry Form (enquiry.html)
+
+Purpose: Allows users to enquire about products, services, volunteering, or sponsorship.
+Features:
+
+HTML5 + JavaScript validation
+
+Checks phone number format, required fields, and length
+
+AJAX submission to /api/enquiry with fallback client-side processing
+
+Displays cost/availability response dynamically
+
+Contact Form (contact.html)
+
+Purpose: Allows users to send general messages to the organisation.
+Features:
+
+Fields for name, email, phone, subject type, and full message
+
+JS validation for email/phone formats
+
+AJAX submission to /api/contact
+
+Fallback mailto: link if API is unavailable
+
+5. GitHub Repository Requirements
+
+Frequent commits with descriptive messages
+
+Updated README document (this section)
+
+Fully recorded changelog including fixes from Part 2 and new additions in Part 3
+
+All new files included:
+
+assets/js/main.js
+
+assets/css/part3-enhancements.css
+
+locations.html
+
+sitemap.xml
+
+robots.txt
+
+server/ folder for AJAX demonstration
+
+6. Changelog (Part 3)
+Corrections Based on Part 2 Feedback
+
+Fixed missing alt attributes on images
+
+Improved semantic HTML structure
+
+Updated inconsistent padding/margins on multiple pages
+
+Corrected broken links and paths
+
+Improved form layout and accessibility labels
+
+New Enhancements for Part 3
+
+Added JavaScript accordion system
+
+Added lightbox gallery for images
+
+Implemented dynamic search filter
+
+Added Leaflet interactive map in locations.html
+
+Updated meta tags for all pages (SEO)
+
+Added sitemap.xml & robots.txt
+
+Implemented AJAX form submissions
+
+Added structured data (JSON-LD)
+
+Created part3-enhancements.css for new UI components
+
+Added server-side demo folder with Node.js API stub
+
+Added accessibility & SEO checklist
+
+Improved client-side error messages
+
+Added page-speed optimizations (defer scripts, compressed media)
+
+Updated README.md with new documentation
+
+7. References
+
+MDN Web Docs – https://developer.mozilla.org/
+
+Leaflet.js Documentation – https://leafletjs.com/
+
+W3Schools – https://www.w3schools.com/
+
+StackOverflow – https://stackoverflow.com/
+
+Google Developers: SEO Starter Guide – https://developers.google.com/search/docs
