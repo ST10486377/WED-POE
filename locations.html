@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Locations - Rocket Resellers</title>
+  <meta name="description" content="Find our drop-off points and partner locations on the map.">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="" crossorigin=""/>
+  <style> #map{height:60vh;border:1px solid #ccc;border-radius:6px;} </style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "name": "Rocket Resellers - Locations", "url": "https://example.org/locations.html", "description": "Page about locations for Rocket Resellers."}</script>
+</head>
+<body>
+  <h1>Our Locations</h1>
+  <div id="map" role="region" aria-label="Map of locations"></div>
+  <p>Click markers for details.</p>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script>
+    const map = L.map('map').setView([-26.2041,28.0473], 10); // Johannesburg as example
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {maxZoom:19, attribution:'© OpenStreetMap'}).addTo(map);
+    const locations = [
+      {name:'Head Office', coords:[-26.2041,28.0473], desc:'Main office - Randburg'},
+      {name:'Drop-off Point A', coords:[-26.1850,28.0300], desc:'Community centre drop-off'}
+    ];
+    locations.forEach(l=>{
+      L.marker(l.coords).addTo(map).bindPopup('<strong>'+l.name+'</strong><br/>'+l.desc);
+    });
+  </script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

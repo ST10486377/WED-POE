@@ -1,0 +1,6 @@
+
+/* Part 3 enhancements styling */
+.accordion-panel{ overflow:hidden; max-height:0; transition: max-height 0.3s ease; }
+.accordion-toggle.open{ font-weight:700; }
+.field-error{ margin-top:6px; }
+.enquiry-response{ background:#f2f2f2; padding:12px; border-radius:6px; margin-top:10px;}
